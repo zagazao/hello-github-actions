@@ -5,7 +5,7 @@ on: workflow_dispatch
 jobs:
   say-hello:
 
-    runs-on: 'self-hosted'
+    runs-on: 'ubuntu-latest'
     steps:
       - name: create-directories
         run: echo "Hello world"
